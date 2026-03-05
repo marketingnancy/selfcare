@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone https://github.com/marketingnancy/relationships.git /tmp/relationships-template)",
+      "Bash(rsync -av --exclude='.git' /tmp/relationships-template/ /Users/neilangelomartinez/Downloads/nancy-selfcare/)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/marketingnancy/selfcare.git)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Initial: Clone LP1 relationships as template\")"
+    ]
+  }
+}
